@@ -27,5 +27,7 @@ public class Fibonaci {
             System.out.printf(i + "     " +"%05d\n", fib[i]);
         }//ends loop
         
+        System.out.printf("Have a good day!");
+        
     }//ends main
 }//ends class
