@@ -17,14 +17,14 @@ public class Fibonaci {
         fib[0] = 0;
         fib[1] = 1;
         
-        System.out.printf("0     " + "%05d\n",fib[0]);
-        System.out.printf("1     " + "%05d\n",fib[1]);
+        System.out.printf("000     " + "%05d\n",fib[0]);
+        System.out.printf("001     " + "%05d\n",fib[1]);
         
         for(int i = 2; i < fib.length; i++)
         {
             fib[i] = fib[i-2] + fib[i-1];
                         
-            System.out.printf(i + "     " +"%05d\n", fib[i]);
+            System.out.printf("%03d" + "     " +"%05d\n", i, fib[i]);
         }//ends loop
         
         System.out.printf("Have a good day!");
